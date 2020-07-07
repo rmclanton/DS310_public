@@ -1,1 +1,4 @@
 theme: jekyll-theme-tactile
+include:
+- README.md
+- Exercise2.md
