@@ -1,3 +1,3 @@
-#I'm putting this up to test pages
+#Reponses to Data 310 Machine Learning Summer 2020
 
-I'm sure I'll remember to go back and put something serious....
+7-7-20 work: https://rmclanton.github.io/DS310_public/Exercise1_7-7-20
