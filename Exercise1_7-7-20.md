@@ -48,4 +48,5 @@ Comparison of data to actual values for worth:
 | Mathews  |        -0.38477302        |
 | Hudgins  |        -1.2518587        |
 
+
 If a house costs more than its predicted price I considered it to be a bad deal
