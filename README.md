@@ -4,5 +4,7 @@
 
 7-8-20 work: [7-8 Exercise](https://rmclanton.github.io/DS310_public/7-8-20)
 
+7-8-20 work: [7-9 Exercise](https://rmclanton.github.io/DS310_public/7-9-20)
 
+Project 1: [Social Distancing Detector Responses](https://rmclanton.github.io/DS310_public/Project_1)
 
