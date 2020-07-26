@@ -120,7 +120,36 @@ I won't bother to plot this model's convolutions as they are the exact same as t
 
 ### Model 3
 
-I intend to run one last model.
+Model 3 has three changes. It has one different and less neural layers, it uses RMSprop for its optimization function and it
+has less convolutional and pooling layers. It performed better on the validation set, with a mean squared error: of 
+303.5134 and  mean absolute error: 13.6734. It was run on the same set of training and testing data as model 1.
+
+## Model 3 Architecture
+
+Model: "sequential"
+
+
+|Layer (type)      |           Output Shape      |        Param #   |
+|---|----|----|
+|conv2d (Conv2D)              |(None, 478, 478, 64)   |   1792|      
+|max_pooling2d (MaxPooling2D) |(None, 239, 239, 64)   |   0     |    
+|conv2d_1 (Conv2D)            |(None, 237, 237, 32)    |  18464     |
+|max_pooling2d_1 (MaxPooling2)| (None, 118, 118, 32)  |    0         |
+|flatten (Flatten)         |   (None, 445568)         |   0 |        
+|dense (Dense)            |    (None, 32)               | 14258208  |
+|dense_1 (Dense)         |     (None, 1)               |  33        |
+
+
+Total params: 14,278,497
+Trainable params: 14,278,497
+Non-trainable params: 0
+
+![Mod 3 Training Plot](Project_3_ims/model_3_acc.png)
+
+Although the training MAE gets worse with additional epochs past the first two, this zoomed in plot shows that the model
+does slightly better on the validation data on further epochs.
+
+![Mod 3 Training Plot 2](Project_3_ims\\model_3_acc_zoom.png)
 
 ### Final notes
 
