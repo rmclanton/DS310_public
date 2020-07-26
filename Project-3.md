@@ -71,7 +71,7 @@ A graph of its MAE as it trained:
 
 
 Here is a csv of comparing each of its predictions to the actual values:
-[Model 1 Evaluation Data](https://rmclanton.github.io/DS310_public/Project_3_ims/Results_on_test-acc1)
+<a href="https://rmclanton.github.io/DS310_public/Project_3_ims/Results_on_test-acc1.csv">Model 1 Results</a>
 
 
 ### Plotting Layer outputs for the first model
@@ -102,7 +102,7 @@ This second model performed far worse on the training and testing data. Likely b
 data to predict. It's MAE was 18.448226928710938 and MSE was 553.8238525390625 on the evaluation set.
 
 Here is a csv of comparing each of its predictions to the actual values:
-[Model 2 Evaluation Data](https://rmclanton.github.io/DS310_public/Project_3_ims/Results_on_test-acc2)
+<a href="https://rmclanton.github.io/DS310_public/Project_3_ims/Results_on_test-acc2.csv">2sults</a>
 
 A graph of its MAE as it trained:
 ![Mod 2 Training Plot](Project_3_ims/acc2_model_MAE.png)

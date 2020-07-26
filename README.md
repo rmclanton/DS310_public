@@ -20,4 +20,4 @@ Project 1: [Social Distancing Detector Responses](https://rmclanton.github.io/DS
 
 Project 2: [T-Shirt Design](https://rmclanton.github.io/DS310_public/Project_2)
 
-Project 2: [Accra Population Estimation](https://rmclanton.github.io/DS310_public/Project-3)
+Project 3: [Accra Population Estimation](https://rmclanton.github.io/DS310_public/Project-3)
