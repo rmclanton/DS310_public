@@ -25,6 +25,13 @@ ints I was using. Standardizing my data would cut down the number of observation
 this dataset has a diverse range of images, I decided it would be better to not standardize the data and have more to train
 on.
 
+Here a classmate asked a question about the images not loading in the proper order compared to the labels. I checked my 
+own images and found I had the same error. The images were being sorted by their string names, not the numerical values 
+associated with those names. It was ordering them as 1, 10, 100 etc. instead of 1,2,3. I fixed this by taking the names 
+of the images, for example "1.jpeg" and splitting off the numerical name. I turned that into an integer, then put it into
+a tuple with the image. (1, 1.jpeg) where 1 is an int. I then sorted the images as a list of tuples by the ints. Finally
+I popped the images out into a list using the sorted list of tuples.
+
 I tried at one point using AveragePooling instead of MaxPooling. It hurt my model's performance so I switched back.
 
 ### Final models
