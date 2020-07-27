@@ -151,6 +151,9 @@ does slightly better on the validation data on further epochs.
 
 ![Mod 3 Training Plot 2](Project_3_ims\\model_3_acc_zoom.png)
 
+Predictions on the data set fo model 3. 
+<a href="https://rmclanton.github.io/DS310_public/Project_3_ims/Results_on_test-acc1-mod3.csv">Model 3 Results</a>
+
 ### Final notes
 
 Every model used the same train test split, with the same seed. This is to ensure I could evalute the models on the data
