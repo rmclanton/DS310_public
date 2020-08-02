@@ -16,6 +16,10 @@
 
 7-22-20 work: [7-22 Exercise](https://rmclanton.github.io/DS310_public/7-22)
 
+7-28-20 work: [7-22 Exercise](https://rmclanton.github.io/DS310_public/7-28)
+
+7-29-20 work: [7-22 Exercise](https://rmclanton.github.io/DS310_public/7-29)
+
 Project 1: [Social Distancing Detector Responses](https://rmclanton.github.io/DS310_public/Project_1)
 
 Project 2: [T-Shirt Design](https://rmclanton.github.io/DS310_public/Project_2)
